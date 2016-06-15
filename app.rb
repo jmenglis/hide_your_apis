@@ -29,7 +29,6 @@ show_secrets
 def get_movie
   p HTTParty.get('http://www.omdbapi.com' + ENV["MOVIE"])
 end
-
 get_movie
 
 
